@@ -1,0 +1,64 @@
+.banner {
+  background-size: cover;
+  padding: 200px 15px;
+  background-position: center;
+}
+
+.container {
+ width: 900px;
+ margin: auto;
+}
+
+h1 {
+  color: white;
+}
+
+.container p {
+  color: lightgrey;
+  padding-bottom: 25px;
+}
+
+.container a {
+  color: white;
+  padding: 15px 25px;
+  border-radius: 4px;
+  background: #6AD58B;
+  transition: background 0.3s ease;
+  border-radius: 50px;
+}
+
+.cards {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 50px;
+}
+
+.cards img {
+  height: 100px;
+}
+
+h2 {
+  text-align: center;
+}
+
+.card {
+  text-align: center;
+  width: 200px;
+  box-shadow: 0 0 5px rgb(230,230,230);
+  padding: 20px;
+  border-radius: 3px;
+}
+
+.footer {
+  background-color: #2c2a2a;
+  text-align: center;
+  color: lightgrey;
+  padding: 60px;
+}
+
+.footer-social-media i {
+  font-size: 30px;
+  color: #1ddc88;
+  letter-spacing: 20px;
+}
